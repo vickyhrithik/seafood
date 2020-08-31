@@ -1,0 +1,341 @@
+import { Fonts } from "../../util/Fonts";
+import {Colors} from "../../util/Color"
+import { StyleSheet } from 'react-native';
+import { color } from "react-native-reanimated";
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+        flexDirection: 'column',
+         justifyContent: "flex-start",
+         backgroundColor: Colors.themeColor,
+        },
+        scrollviewContainer: {
+            justifyContent: "flex-start",
+            alignItems:"center"
+          },
+    backButtonStyle: {
+    alignSelf:'flex-start',
+    marginLeft:10, 
+    marginTop:50, 
+  },
+   backImg: {
+    marginLeft: 5,
+    alignSelf: "flex-start",
+    resizeMode: "contain",
+    width: 25
+  },
+  newpatienttitle:{
+      fontFamily:Fonts.PoppinsSemiBold,
+      fontSize:23,
+      textAlign:"center",
+      marginTop:12,
+      paddingHorizontal:"5%"
+  },
+  newpatientcontent:{
+     color:Colors.textWhite,
+     marginTop:5,
+  paddingHorizontal:18,
+     textAlign:"center",
+     fontFamily:Fonts.PoppinsRegular,
+     fontSize:15,
+     marginBottom:15
+  },
+  fullnameView:{
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+     height:"6%",
+     paddingHorizontal:"3%",
+     paddingTop:"1%",
+     paddingBottom:"1%",
+     width:"92%"
+  },
+  fullnameText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+   // paddingBottom:"1%"
+    
+  },
+  fullnameTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular, 
+    width:"100%",
+  },
+  nricView:{
+    marginTop:"3%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    height:"6%",
+     paddingHorizontal:"3%",
+     paddingTop:"1%",
+     paddingBottom:"1%",
+     width:"92%"
+  },
+  nricText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+  },
+  nricTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular, 
+    width:"100%",
+  },
+  cocView:{
+    marginTop:"3%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    height:"6%",
+     paddingHorizontal:"3%",
+     paddingTop:"1%",
+     paddingBottom:"1%",
+     width:"92%"
+  },
+  cocText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%"
+  },
+  cocTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"90%",
+  
+    
+  },
+  btnStyle:{
+    position:"absolute",
+   alignSelf:"flex-end",
+   bottom:"1%"
+   
+   
+  },
+  mainrelgenView:{
+    marginTop:"3%",
+    flexDirection:"row",
+    justifyContent:"space-between",
+    height:"6%",
+  },
+  relView:{
+    width:"44%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    paddingHorizontal:"3%",
+    paddingTop:"1%",
+    paddingBottom:"1%",
+    marginRight:"2%"
+  },
+  relText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"2%"
+  },
+  relTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"82%",
+   
+  },
+  genView:{
+    width:"44%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    paddingHorizontal:"3%",
+    paddingTop:"1%",
+    paddingBottom:"1%",
+    marginLeft:"2%"
+  },
+  genText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%"
+  },
+  genTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"82%",
+   
+  },
+  dobView:{
+    marginTop:"3%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    height:"6%",
+     paddingHorizontal:"3%",
+     paddingTop:"1%",
+     paddingBottom:"1%",
+     width:"92%"
+  },
+  dobText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%"
+  },
+  dobTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"90%",
+  },
+  resiposView:{
+    marginTop:"3%",
+    width:"92%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    paddingHorizontal:"3%",
+    paddingTop:"1%",
+  },
+  resiText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%"
+  },
+  resiTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%",
+    width:"100%",
+  },
+  posText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+  },
+  posTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"2%",
+    width:"100%",
+  },
+  couView:{
+    marginTop:"3%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    height:"6%",
+     paddingHorizontal:"3%",
+     paddingTop:"1%",
+     paddingBottom:"1%",
+     width:"92%"
+  },
+  couText:{
+    color:Colors.textlightblack,
+    fontSize:14,
+    fontFamily:Fonts.PoppinsRegular,
+    paddingBottom:"1%"
+  },
+  couTextinput:{
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+  },
+  maincodenumView:{
+    marginTop:"3%",
+    flexDirection:"row",
+    justifyContent:"space-between",
+    height:"6%",
+  },
+  codeView:{
+    width:"35%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    paddingHorizontal:"3%",
+    paddingTop:"1%",
+    paddingBottom:"1%",
+    marginRight:"2%",
+    height:55
+  },
+  codebtnStyle:{
+    position:"absolute",
+    alignSelf:"flex-end",
+    bottom:"3%",
+    marginBottom:5
+  },
+  codeTextinput:{
+    marginTop:15,
+    color:Colors.textblack,
+    fontSize:16,
+    marginLeft:40,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"80%",
+   
+
+  },
+  mobnumView:{
+    width:"52%",
+    borderWidth:1,
+    borderRadius:10,
+    borderColor:Colors.textWhite,
+    backgroundColor:Colors.textWhite,
+    paddingHorizontal:"3%",
+    paddingTop:"1%",
+    paddingBottom:"1%",
+    marginLeft:"2%",
+    height:55
+
+  },
+  mobnumTextinput:{
+    marginTop:2,
+    color:Colors.textblack,
+    fontSize:15,
+    fontFamily:Fonts.PoppinsRegular,
+    width:"90%",
+    left:"12%"
+  },
+  newpatientverifyView:{
+    marginTop:"25%"
+  },
+  newpatientverify: 
+  {
+    fontFamily:Fonts.PoppinsMedium,
+    fontSize:12,
+  //  paddingBottom:"3%"
+  },
+  continueButton:{
+    backgroundColor:Colors.textWhite,
+    borderWidth:1,
+    borderRadius:8,
+    borderColor:Colors.textWhite,
+    padding:10,
+    width:"92%",
+    height:50
+},
+continueText:{
+  
+  fontSize:17,
+  textAlign:"center",
+  fontFamily:Fonts.PoppinsMedium,
+  color:Colors.lightgreyColor,
+
+}
+  
+})
